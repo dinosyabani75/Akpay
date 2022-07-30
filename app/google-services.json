@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "41200384750",
+    "project_id": "akpay-6574b",
+    "storage_bucket": "akpay-6574b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41200384750:android:1f2684a3ee6bafb13011ff",
+        "android_client_info": {
+          "package_name": "com.proyek.akpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41200384750-kq4v4f6b758brovgaughfmhilt68mnu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8dZwS5p9az1kIaQEtENjT4cHt5YehLUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41200384750-kq4v4f6b758brovgaughfmhilt68mnu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

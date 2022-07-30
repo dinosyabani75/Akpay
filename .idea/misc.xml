@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/File Kuliah IST AKPRIND Yogyakarta/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/drawable/selector.xml" value="0.1325" />
+        <entry key="..\:/File Kuliah IST AKPRIND Yogyakarta/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/layout/activity_profile.xml" value="0.21979166666666666" />
+        <entry key="..\:/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/layout/activity_login.xml" value="0.13179347826086957" />
+        <entry key="..\:/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/layout/activity_main.xml" value="0.12907608695652173" />
+        <entry key="..\:/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/layout/activity_pembayaran_akhir.xml" value="0.21979166666666666" />
+        <entry key="..\:/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/layout/activity_sign_up.xml" value="0.18704710144927536" />
+        <entry key="..\:/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/layout/activity_splash.xml" value="0.1272644927536232" />
+        <entry key="..\:/KULIAH SEM.6/Topik Khusus/Android/Akpay/app/src/main/res/layout/activity_topup.xml" value="0.21979166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tes"
+    tools:context=".Profile">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/profil1" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/akun_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/profile_image"
+        android:paddingTop="20dp"
+        android:hint="Nama Lengkap">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/getnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#192A39"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_rockford_sans"
+            android:inputType="text"
+            android:textSize="18sp">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/akun_jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/akun_nama"
+        android:hint="Jurusan">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/getjurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#192A39"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:drawableStart="@drawable/ic_baseline_jurusan_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_rockford_sans"
+            android:inputType="text"
+            android:textSize="18sp">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/akun_angkatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/akun_jurusan"
+        android:hint="Angkatan">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/getangkatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#192A39"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:drawableStart="@drawable/ic_baseline_contacts_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_rockford_sans"
+            android:inputType="number"
+            android:textSize="18sp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/akun_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/akun_angkatan"
+        android:hint="E-Mail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/getemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#192A39"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_rockford_sans"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/akun_saldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/akun_email"
+        android:hint="Saldo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/getsaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#192A39"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:drawableStart="@drawable/ic_baselines_saldo_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_rockford_sans"
+            android:inputType="number"
+            android:textSize="18sp">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/akun_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/akun_saldo"
+        android:hint="Password">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/getpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#192A39"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/font_rockford_sans"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:maxLength="9"
+        android:textSize="18sp">
+    </com.google.android.material.textfield.TextInputEditText>
+        <ImageView
+            android:id="@+id/show_pass_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="8dp"
+            android:alpha=".5"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_remove_red_eye_24"
+            android:contentDescription="Show Password"
+            tools:ignore="RtlHardcoded" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/akun_password"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/font_rockford_sans"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Ubah Data"
+        android:textSize="12sp">
+    </Button>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/button"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+</RelativeLayout>
